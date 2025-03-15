@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "js-project-solo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-js-MobileTeam-2/",
+    "build": "vite build --base=/js-project-solo/",
     "preview": "vite preview"
   },
   "devDependencies": {
