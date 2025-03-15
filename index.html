@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js-project-solo/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/js-project-solo/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js-project-solo/assets/vendor-6ae7d6dd.js">
+    <link rel="stylesheet" href="/js-project-solo/assets/vendor-c4244327.css">
+    <link rel="stylesheet" href="/js-project-solo/assets/index-c3f9547b.css">
+  </head>
+
+  <body>
+    <header>
+  <div class="container header-content" id="header">
+    <div class="left-side">
+      <img
+        src="/js-project-solo/assets/logo-photo-header-60fc012b.png"
+        srcset="/js-project-solo/assets/logo-photo-header-60fc012b.png 1x, /js-project-solo/assets/logo-photo-header@2x-b26dd0bd.png 2x"
+        alt="Logo"
+        class="header-logo"
+      />
+      <span class="text">Jefferson*</span>
+    </div>
+    <div>
+      <button id="menu-button" class="menu-button">Menu</button>
+      <ul class="menu-hidden-items" tabindex="0">
+        <li class="menu-hidden-item"><a href="#about_me">About me</a></li>
+        <li class="menu-hidden-item"><a href="#benefits">Benefits</a></li>
+        <li class="menu-hidden-item"><a href="#projects">Projects</a></li>
+        <li class="menu-hidden-item"><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <a class="order-button" href="#work_together">Order the project</a>
+    <button class="menu-open-button-btn">
+      <svg class="menu-open-button-svg" width="28" height="28">
+        <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-burger-menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<div class="backdrop">
+  <button class="close-button" type="button" aria-label="Close">
+    <svg
+      class="menu-open-button-svg close-modal-icon"
+      width="28px"
+      height="28px"
+    >
+      <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-close-modal"></use>
+    </svg>
+  </button>
+  <div class="menu-list">
+    <ul class="menu-items">
+      <li class="menu-item"><a href="#about_me">About me</a></li>
+      <li class="menu-item"><a href="#benefits">Benefits</a></li>
+      <li class="menu-item"><a href="#projects">Projects</a></li>
+      <li class="menu-item"><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+  <a class="order-backdrop-button" href="#work_together">Order the project</a>
+</div>
+
+    <main>
+      <section class="hero-section">
+  <div class="hero-container container">
+    <h1 class="hero-title">
+      Hello.<br />
+      I’m Fullstack developer Lloyd Jefferson.
+    </h1>
+    <div class="hero-contacts">
+      <ul class="hero-contacts-list">
+        <li>
+          <a
+            class="hero-contacts-list-item"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            >IG</a
+          >
+        </li>
+        <li>
+          <a
+            class="hero-contacts-list-item"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            >FB</a
+          >
+        </li>
+        <li>
+          <a
+            class="hero-contacts-list-item"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            >YT</a
+          >
+        </li>
+        <li>
+          <a
+            class="hero-contacts-list-item"
+            href="https://github.com/YuriiMakoveichuk/project-js-MobileTeam-2"
+            target="_blank"
+            >GH</a
+          >
+        </li>
+        <li>
+          <a
+            class="hero-contacts-list-item hero-email-link"
+            href="mailto:example@example.com"
+            >lloydjefferson@gmail.com</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section-about-me" id="about_me">
+  <div class="container">
+    <div class="wrapper-about-me-and-photo">
+      <h2 class="title-about-me visually-hidden">About me</h2>
+      <p class="text-about-me">
+        I work with people all over the world to create impressive and <span class="accept-color-red">functional
+        </span><span class="accept-color-transparent-black">websites</span> that reflect each client's unique
+        personality.
+      </p>
+
+      <picture class="arr-photos">
+        <source srcset="/js-project-solo/assets/my-photo-desctop-a70ae11b.jpg 1x, /js-project-solo/assets/my-photo-desctop@2x-9229766f.jpg 2x" media="(min-width: 1440px)" />
+        <source srcset="/js-project-solo/assets/my-photo-tablet-e98b523a.jpg 1x, /js-project-solo/assets/my-photo-tablet@2x-ec79f717.jpg 2x" media="(min-width: 768px)" />
+        <source srcset="/js-project-solo/assets/my-photo-mobile-480a2c3f.jpg 1x, /js-project-solo/assets/my-photo-mobile@2x-a0ac2a77.jpg 2x" media="(max-width: 767px)" />
+        <img class="my-photo" src="/js-project-solo/assets/my-photo-desctop-a70ae11b.jpg" alt="My photo" />
+      </picture>
+    </div>
+
+    <div class="accordion-container accordion-container-about-me">
+      <div class="about-item ac">
+        <div class="accordion-box-about">
+          <h3 class="ac-header ac-header-title-about">About me</h3>
+          <button type="button" class="ac-trigger btn-descr-about-me about-btn">
+            <svg class="icon-btn-show-content-about" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+
+            <svg
+              class="icon-btn-hide-content-about visually-hidden"
+              width="20"
+              height="20"
+            >
+             <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel ac-panel-about">
+          <div>
+            <p class="ac-text ac-text-about">
+              I am Lloyd Jefferson, a talented programmer with extensive
+              expertise in software development. I have an understanding of
+              different programming languages ​​and technologies, always ready
+              to improve my skills. I always follow the latest trends and look
+              for unconventional, creative solutions to problems. I have a high
+              level of analytical skills and am able to effectively solve even
+              the most difficult tasks encountered on the way.
+            </p>
+            <p class="ac-text ac-text-about">
+              Able to work both independently and in a team. I can effectively
+              cooperate with colleagues, exchanging ideas and finding optimal
+              solutions. Professional maturity allows you to calmly cope with
+              challenges and stressful situations, while maintaining a high
+              quality of work. I am always looking for opportunities for
+              self-improvement. I actively study new technologies and practices
+              to stay abreast of the latest innovations. I have a strong
+              understanding of various programming languages, frameworks and
+              architectural concepts that allow me to create efficient and
+              scalable software.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-item ac">
+        <div class="accordion-box-about">
+          <h3 class="ac-header ac-header-title-about">ROLE</h3>
+          <button type="button" class="ac-trigger btn-descr-about-me about-btn">
+            <svg class="icon-btn-show-content-about" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+            <svg class="icon-btn-hide-content-about visually-hidden" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel ac-panel-about">
+          <div>
+            <p class="ac-text ac-text-about">Frontend development</p>
+            <p class="ac-text ac-text-about">HeadlessCMS,Wordpress</p>
+            <p class="ac-text ac-text-about">Blender(enjoy)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-item ac">
+        <div class="accordion-box-about">
+
+          <h3 class="ac-header ac-header-title-about">
+            Education
+          </h3>
+
+          <button type="button" class="ac-trigger btn-descr-about-me about-btn">
+            <svg class="icon-btn-show-content-about" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+
+            <svg
+              class="icon-btn-hide-content-about visually-hidden"
+              width="20"
+              height="20"
+            >
+
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel ac-panel-about">
+          <div>
+            <p class="ac-text ac-text-about">
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </p>
+            <p class="ac-text ac-text-about">
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </p>
+            <p class="ac-text ac-text-about">
+              2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-skills">
+      <div class="swiper-about">
+        <ul class="list-my-skills swiper-wrapper">
+          <li class="item-skill swiper-slide active">Html/Css</li>
+          <li class="item-skill swiper-slide">JavaScript</li>
+          <li class="item-skill swiper-slide">React</li>
+          <li class="item-skill swiper-slide">Node. js</li>
+          <li class="item-skill swiper-slide">React Native</li>
+          <li class="item-skill swiper-slide">Soft skills</li>
+        </ul>
+      </div>
+      <button type="button" class="btn-next-skill swiper-button-next">
+        <svg class="icon-arrow-right">
+          <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+      <section class="benefits-container" id="benefits">
+  <div class="container">
+    <h2 class="benefits-title">Benefits of working with me</h2>
+    <ul class="benefits-list">
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-user"></use>
+          </svg>
+        </div>
+
+        <h3 class="item-title">Expertise</h3>
+        <p class="item-descriptive-text">
+          As a highly experienced developer, I have deep knowledge of
+          programming and website development.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-message"></use>
+          </svg>
+        </div>
+
+        <h3 class="item-title">Communication</h3>
+        <p class="item-descriptive-text">
+          Understanding your needs and wants is my priority and I am always open
+          to discussions and corrections.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-brush"></use>
+          </svg>
+        </div>
+        <h3 class="item-title">Art</h3>
+        <p class="item-descriptive-text">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="square-icon">
+          <svg class="icon" width="24" height="24">
+            <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-hourglass"></use>
+          </svg>
+        </div>
+        <h3 class="item-title">Urgent execution</h3>
+        <p class="item-descriptive-text">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+    <a class="link-order" href="#work_together">Order the project</a>
+  </div>
+</section>
+
+      <section id="projects" class="section-projects">
+  <div class="container">
+    <h2 class="projects-title">Projects</h2>
+    <div class="projects-wrapper">
+      <div class="projects-wrapper-list">
+        <ul class="projects-list">
+          <li class="projects-list-item">#react</li>
+          <li class="projects-list-item">#js</li>
+          <li class="projects-list-item">#node js</li>
+          <li class="projects-list-item">#git</li>
+        </ul>
+        <h3 class="projects-wrapper-title">
+          Programming Across Borders: Ideas, Technologies, Innovations
+        </h3>
+        <a
+          href="https://github.com/YuriiMakoveichuk/project-js-MobileTeam-2"
+          rel="noopener noreferrer"
+          target="_blank"
+          class="projects-link"
+          >See project</a
+        >
+      </div>
+      <div class="projects-wrapper-image">
+        <div class="swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="/js-project-solo/assets/projects_tablet-42373ef6.jpg 1x, /js-project-solo/assets/projects_tablet_retina@2x-f659bbfa.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/js-project-solo/assets/projects_mobile-db895f95.jpg 1x, /js-project-solo/assets/projects_mobile_retina@2x-b404f0f5.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/js-project-solo/assets/projects_mobile-db895f95.jpg"
+                  alt="Picture of a form regisrtation"
+                />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="/js-project-solo/assets/projects_tablet_page2-6af1daef.jpg 1x, /js-project-solo/assets/projects_tablet_page2_retina@2x-56f0fe7f.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/js-project-solo/assets/projects_mobile_page2-eed3a53c.jpg 1x, /js-project-solo/assets/projects_mobile_page2_retina@2x-a09c1f46.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/js-project-solo/assets/projects_mobile_page2-eed3a53c.jpg"
+                  alt="Picture of a form regisrtation"
+                />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="/js-project-solo/assets/projects_tablet_page3-3cbcf6fa.jpg 1x, /js-project-solo/assets/projects_tablet_page3_retina@2x-000de005.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/js-project-solo/assets/projects_mobile_page3-011cd89e.jpg 1x, /js-project-solo/assets/projects_mobile_page3_retina@2x-cc6e872a.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/js-project-solo/assets/projects_mobile_page3-011cd89e.jpg"
+                  alt="Picture of a form regisrtation"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="projects-btn-wrapper">
+      <button type="button" class="projects-btn swiper-button-prev">
+        <svg class="projects-svg" aria-label="arrow left">
+          <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-arrow-left"></use>
+        </svg>
+      </button>
+      <button type="button" class="projects-btn swiper-button-next">
+        <svg class="projects-svg" aria-label="arrow right">
+          <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="faq" id="faq">
+  <div class="container faq-container">
+    <h2 class="faq-titles">FAQ</h2>
+
+    <div class="container-first accordion-flex">
+      <div class="faq-item ac">
+        <div class="accordion-box">
+          <h3 class="ac-header ac-header-title">
+            What programming languages are most often used in your project?
+          </h3>
+          <button type="button" class="ac-trigger btn-descr-about-me faq-btn">
+            <svg class="icon-btn-show-content" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+            <svg
+              class="icon-btn-hide-content visually-hidden"
+              width="20"
+              height="20"
+            >
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="ac-text ac-text-new">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item ac">
+        <div class="accordion-box">
+          <h3 class="ac-header ac-header-title">
+            What are the deadlines for the project?
+          </h3>
+          <button type="button" class="ac-trigger btn-descr-about-me faq-btn">
+            <svg class="icon-btn-show-content" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+            <svg
+              class="icon-btn-hide-content visually-hidden"
+              width="20"
+              height="20"
+            >
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="ac-text ac-text-new">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item ac">
+        <div class="accordion-box">
+          <h3 class="ac-header ac-header-title">
+            What payment methods do you accept?
+          </h3>
+          <button type="button" class="ac-trigger btn-descr-about-me faq-btn">
+            <svg class="icon-btn-show-content" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+            <svg
+              class="icon-btn-hide-content visually-hidden"
+              width="20"
+              height="20"
+            >
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="ac-text ac-text-new">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item ac">
+        <div class="accordion-box">
+          <h3 class="ac-header ac-header-title">How can I contact you?</h3>
+          <button type="button" class="ac-trigger btn-descr-about-me faq-btn">
+            <svg class="icon-btn-show-content" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+            <svg
+              class="icon-btn-hide-content visually-hidden"
+              width="20"
+              height="20"
+            >
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="ac-text ac-text-new">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item ac">
+        <div class="accordion-box">
+          <h3 class="ac-header ac-header-title">
+            Do you provide advice or support?
+          </h3>
+          <button type="button" class="ac-trigger btn-descr-about-me faq-btn">
+            <svg class="icon-btn-show-content" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+            <svg
+              class="icon-btn-hide-content visually-hidden"
+              width="20"
+              height="20"
+            >
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="ac-text ac-text-new">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item ac">
+        <div class="accordion-box">
+          <h3 class="ac-header ac-header-title">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </h3>
+          <button type="button" class="ac-trigger btn-descr-about-me faq-btn">
+            <svg class="icon-btn-show-content" width="20" height="20">
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-show-content"></use>
+            </svg>
+            <svg
+              class="icon-btn-hide-content visually-hidden"
+              width="20"
+              height="20"
+            >
+              <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-hide-content"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="ac-text ac-text-new">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="covers-section" id="covers">
+  <div class="container covers-container js-covers-container">
+    <h2 class="covers-title visually-hidden">Covers</h2>
+    <ul class="covers-list">
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/first_screen_1-2e2b5481.jpg 1x, /js-project-solo/assets/first_screen_1@2x-2ceb4f38.jpg 2x"
+          src="/js-project-solo/assets/first_screen_1-2e2b5481.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_10-27b9ac00.jpg 1x, /js-project-solo/assets/rectangle_10@2x-ff30cf06.jpg 2x"
+          src="/js-project-solo/assets/rectangle_10-27b9ac00.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_11-7fc5fb1c.jpg 1x, /js-project-solo/assets/rectangle_11@2x-fd01146c.jpg 2x"
+          src="/js-project-solo/assets/rectangle_11-7fc5fb1c.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_12-45dd41dc.jpg 1x, /js-project-solo/assets/rectangle_12@2x-60a52117.jpg 2x"
+          src="/js-project-solo/assets/rectangle_12-45dd41dc.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_4-603066e8.jpg 1x, /js-project-solo/assets/rectangle_4@2x-e808b826.jpg 2x"
+          src="/js-project-solo/assets/rectangle_4-603066e8.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+    </ul>
+    <ul class="covers-list">
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_5-6a949850.jpg 1x, /js-project-solo/assets/rectangle_5@2x-457a98dd.jpg 2x"
+          src="/js-project-solo/assets/rectangle_5-6a949850.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_6-d85e18fa.jpg 1x, /js-project-solo/assets/rectangle_6@2x-0922d8e8.jpg 2x"
+          src="/js-project-solo/assets/rectangle_6-d85e18fa.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_7-22b8b7bd.jpg 1x, /js-project-solo/assets/rectangle_7@2x-0ef9bbe2.jpg 2x"
+          src="/js-project-solo/assets/rectangle_7-22b8b7bd.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_8-5829f9a4.jpg 1x, /js-project-solo/assets/rectangle_8@2x-20c22e8b.jpg 2x"
+          src="/js-project-solo/assets/rectangle_8-5829f9a4.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_9-f0d48312.jpg 1x, /js-project-solo/assets/rectangle_9@2x-8d102c83.jpg 2x"
+          src="/js-project-solo/assets/rectangle_9-f0d48312.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+    </ul>
+    <ul class="covers-list">
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_9-f0d48312.jpg 1x, /js-project-solo/assets/rectangle_9@2x-8d102c83.jpg 2x"
+          src="/js-project-solo/assets/rectangle_9-f0d48312.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_4-603066e8.jpg 1x, /js-project-solo/assets/rectangle_4@2x-e808b826.jpg 2x"
+          src="/js-project-solo/assets/rectangle_4-603066e8.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_5-6a949850.jpg 1x, /js-project-solo/assets/rectangle_5@2x-457a98dd.jpg 2x"
+          src="/js-project-solo/assets/rectangle_5-6a949850.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/first_screen_1-2e2b5481.jpg 1x, /js-project-solo/assets/first_screen_1@2x-2ceb4f38.jpg 2x"
+          src="/js-project-solo/assets/first_screen_1-2e2b5481.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_4-603066e8.jpg 1x, /js-project-solo/assets/rectangle_4@2x-e808b826.jpg 2x"
+          src="/js-project-solo/assets/rectangle_4-603066e8.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+    </ul>
+    <ul class="covers-list">
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/first_screen_1-2e2b5481.jpg 1x, /js-project-solo/assets/first_screen_1@2x-2ceb4f38.jpg 2x"
+          src="/js-project-solo/assets/first_screen_1-2e2b5481.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_10-27b9ac00.jpg 1x, /js-project-solo/assets/rectangle_10@2x-ff30cf06.jpg 2x"
+          src="/js-project-solo/assets/rectangle_10-27b9ac00.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_11-7fc5fb1c.jpg 1x, /js-project-solo/assets/rectangle_11@2x-fd01146c.jpg 2x"
+          src="/js-project-solo/assets/rectangle_11-7fc5fb1c.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_12-45dd41dc.jpg 1x, /js-project-solo/assets/rectangle_12@2x-60a52117.jpg 2x"
+          src="/js-project-solo/assets/rectangle_12-45dd41dc.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+      <li class="covers-item">
+        <img
+          srcset="/js-project-solo/assets/rectangle_4-603066e8.jpg 1x, /js-project-solo/assets/rectangle_4@2x-e808b826.jpg 2x"
+          src="/js-project-solo/assets/rectangle_4-603066e8.jpg"
+          alt="Photo of the site project"
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews-section">
+  <div class="container">
+    <h3 class="reviews-title">Reviews</h3>
+    <div class="swiper-container">
+      <ul class="swiper-wrapper reviews-list"></ul>
+      <div class="btn-wrap">
+        <button class="btn btn-go-left">
+          <svg class="arrow-icon">
+            <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-arrow-right" width="24" height="24"></use>
+          </svg>
+        </button>
+        <button class="btn btn-go-right">
+          <svg class="arrow-icon">
+            <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-arrow-left" width="24" height="24"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    </main>
+    <footer class="footer" id="work_together">
+  <div class="container footer-container">
+    <img
+      srcset="/js-project-solo/assets/logo-photo-664679f3.png 1x, /js-project-solo/assets/logo-photo-664679f3.png 2x"
+      src="/js-project-solo/assets/logo-photo-664679f3.png"
+      alt="jefferson"
+      class="logo"
+      id="#header"
+      width="44"
+      height="44"
+    />
+    <h2 class="title">Let's <span class="title-work">work</span> together</h2>
+    <form class="form-container" id="contact-form">
+      <div class="form-input-container">
+        <div class="input-container">
+          <label class="send-label" for="user-mail">
+            <input
+              class="send-input"
+              type="email"
+              placeholder="clients@gmail.com"
+              name="send-email"
+              id="user-mail"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            />
+          </label>
+          <div id="email-message" class="message"></div>
+        </div>
+        <div class="textarea-container">
+          <textarea
+            class="form-textarea"
+            name="user-comment"
+            placeholder="comments"
+            id="user-comment"
+            required
+          ></textarea>
+          <div id="comment-message" class="message"></div>
+        </div>
+        <button type="submit" class="button-title">Send</button>
+      </div>
+    </form>
+    <address class="mobile-address" id="my-contacts">
+      <a class="email-address-link" href="mailto:lloydjefferson@gmail.com"
+        >lloydjefferson@gmail.com</a
+      >
+      <a class="mobile-address-link" href="tel:+3801111111111"
+        >+380 11 1111 11 11</a
+      >
+    </address>
+  </div>
+  <!----------- Backdrop ------------>
+  <div class="footer-backdrop">
+    <div class="modal hidden" id="modal">
+      <button type="button" class="footer-close-btn" id="close-button">
+        <svg class="close-button-icon" width="24" height="24">
+          <use href="/js-project-solo/assets/symbol-defs-c9d57aa0.svg#icon-btn-close-modal"></use>
+        </svg>
+      </button>
+      <h3 class="backdrop-title">
+        Thank you for your interest in cooperation!
+      </h3>
+      <p class="backdrop-text">
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch.
+      </p>
+    </div>
+  </div>
+</footer>
+
+    
+  </body>
+</html>
